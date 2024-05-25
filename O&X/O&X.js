@@ -33,14 +33,18 @@ const cheakWinner  = () =>{
 
         
 
-        if(pos1 != "" && pos2 != "" && pos3 != "" ){
+if(pos1 != "" && pos2 != "" && pos3 != "" ){
 
             if(pos1 === pos2 && pos2 === pos3){
 
-            boxs.forEach(box  => {
-            console.log('winner is ' + pos1);
-            box.disabled = true; 
-        });
+                boxs.forEach(box  => {
+                    box.innerText = '';
+                    box.disabled = false; 
+                });
+
+                
+                console.log('winner is ' + pos1);
+
         alert("winer" + pos1);
         newDiv(`The Winner is "${pos1}"`)
 
