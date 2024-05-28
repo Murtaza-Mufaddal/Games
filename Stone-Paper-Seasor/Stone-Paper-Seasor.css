@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h1 {
+  text-align: center;
+  color: red;
+  font-family: cursive;
+}
+.container {
+  display: flex;
+}
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40vh;
+}
+.choice img {
+  width: 100px;
+  transition: 10s;
+  cursor: pointer;
+}
+/* .choice img:hover {
+    transition: 1s;
+    transform: scale(1.3);
+} */
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.score {
+  font-size: 20px;
+  color: blue;
+  margin: 10px;
+}
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.message p {
+  display: inline;
+  background-color: rgb(199, 248, 248);
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(41, 45, 49);
+  font-weight: 800;
+}
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.reset button {
+  width: 200px;
+  height: 40px;
+  font-size: 30px;
+  color: green;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.reset button:hover {
+  color: red;
+  transition: 1s;
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 786px){
+    .choice img {
+        width: 50px;
+        transition: 10s;
+        cursor: pointer;
+
+      }
+}
