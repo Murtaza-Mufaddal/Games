@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chouse game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Chouse your game here</h1>
+      <button id="theme">Theme</button>
+    </header>
+
+    <div class="search-div active-div">
+      <!-- search-div -->
+      <div class="search-pos">
+        <input
+          type="text"
+          id="search"
+          onkeyup="searchKey()"
+          placeholder="created by Murtaza"
+        />
+        <button class="search-btn">
+          <img id="search-img" src="images/search.svg" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <button class="search-button" id="tic">Tic-Tac-Toe</button>
+      <button class="search-button" id="sps">Stone Paper seasor</button>
+      <button class="search-button" id="OandX">O & X</button>
+      <button class="search-button" id="sudoku">sudoku</button>
+      <button class="search-button" id="cal">Calculator</button>
+      <button class="search-button" id="cricket">Hand Cricket</button>
+      <button class="search-button" id="bmi">Body Mass Index</button>
+    </div>
+
+    <span class="footer"
+      >This is private website created and desigined by
+      <b><i> Murtaza Mufaddal rassi wala </i></b> on
+      <b><i> 25/5/24 </i></b></span
+    >
+
+    <script src="Main.js"></script>
+  </body>
+</html>

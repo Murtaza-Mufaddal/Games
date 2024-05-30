@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 786px) {
+  body {
+    background-image: url(../images/bmi.jpg);
+    background-size: cover;
+  }
+} /*  end code */
+body {
+  background-image: url(../images/bmi.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,
+h2 {
+  color: red;
+}
+.container {
+  width: 80%;
+  max-width: 500px;
+  opacity: 0.8;
+  border-radius: 40px;
+  background-color: white;
+  height: 70vh;
+  max-height: 500px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.container input {
+  width: 80%;
+  height: 40px;
+  margin: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  font-size: 20px;
+  color: red;
+  padding-left: 10px;
+}
+.height {
+  display: flex;
+  justify-content: center;
+}
+.height input {
+  width: 80%;
+  height: 40px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.container button {
+  width: 150px;
+  height: 30px;
+  background-color: whitesmoke;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}

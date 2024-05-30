@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="bmi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Murtaza</h1>
+      <h2 id="display">Body Mass Index</h2>
+      <form action="" method="post" name="submit-to-google-sheet">
+      <div class="contain">
+        <input type="text" name="Name" placeholder="Name..." />
+        <div class="height">
+          <input
+            type="number"
+            name="hei-feet1"
+            placeholder="feet"
+            id="hei-feet1"
+          />
+          <label for="hei-feet1">Height ..in.. Inchs</label>
+          <input
+            type="number"
+            name="hei-feet2"
+            placeholder="inches"
+            id="hei-feet2"
+          />
+        </div>
+        <input
+          type="number"
+          placeholder="Wight in KG..."
+          name="weight"
+          id="weight"
+        />
+        <input type="number" placeholder="Age..." name="age" id="age" />
+        <button id="submit" type="submit">Submit</button>
+      </div>
+      </form>
+    </div>
+
+    <script src="bmi.js"></script>
+  </body>
+</html>
+
+
+
+
